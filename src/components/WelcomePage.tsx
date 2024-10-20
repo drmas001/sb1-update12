@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { LogIn, ArrowRight, Info } from 'lucide-react';
+import { ArrowRight, Info } from 'lucide-react';
 
 const WelcomePage: React.FC = () => {
   return (
@@ -17,7 +17,11 @@ const WelcomePage: React.FC = () => {
           }}
         ></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center relative z-10">
-          <img src="/logo.png" alt="IMD-Care Logo" className="mx-auto h-24 w-auto mb-8" />
+          <img
+            src="/logo.png"
+            alt="IMD-Care Logo"
+            className="mx-auto h-48 w-auto mb-8 sm:h-56 md:h-64 lg:h-72 xl:h-80"
+          />
           <h1 className="text-4xl font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
             Welcome to IMD-Care
           </h1>
@@ -63,7 +67,7 @@ const WelcomePage: React.FC = () => {
             </div>
           </nav>
           <p className="mt-8 text-center text-base text-gray-400">
-            &copy; 2023 IMD-Care.com. All rights reserved.
+            &copy; 2024 IMD-Care.com under Alpha-medi.com . All rights reserved.
           </p>
         </div>
       </footer>
