@@ -58,7 +58,11 @@ const Login: React.FC<LoginProps> = ({ setUser }) => {
             <ArrowLeft className="h-5 w-5 mr-2" />
             Back to Welcome Page
           </Link>
-          <img src="/logo.png" alt="IMD-Care Logo" className="mx-auto h-12 w-auto" />
+          <img
+            src="/logo.png"
+            alt="IMD-Care Logo"
+            className="mx-auto w-24 h-auto sm:w-32 md:w-40 lg:w-48 xl:w-56"
+          />
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleLogin}>
           <input type="hidden" name="remember" value="true" />
