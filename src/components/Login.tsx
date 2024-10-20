@@ -61,7 +61,7 @@ const Login: React.FC<LoginProps> = ({ setUser }) => {
           <img
             src="/logo.png"
             alt="IMD-Care Logo"
-            className="mx-auto w-24 h-auto sm:w-32 md:w-40 lg:w-48 xl:w-56"
+            className="mx-auto w-48 h-auto sm:w-64 md:w-80 lg:w-96 xl:w-[28rem]"
           />
         </div>
         <form className="mt-8 space-y-6" onSubmit={handleLogin}>
